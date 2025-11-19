@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 mkdir -p $HOME/log
 sudo tar -czf $HOME/log/log_archive_$(date +%Y%m%d)_$(date +%H%M%S).tar.gz /var/log
 echo "ADDED LOG TO $HOME/log"
